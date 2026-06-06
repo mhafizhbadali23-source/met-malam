@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Good Night Sri</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(#0b1026, #1b1f4a);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+    }
+
+    .card {
+      width: 85%;
+      max-width: 420px;
+      padding: 30px;
+      border-radius: 25px;
+      background: rgba(255, 255, 255, 0.12);
+      box-shadow: 0 0 25px rgba(255, 182, 193, 0.6);
+    }
+
+    h1 {
+      color: #ffb6c1;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .moon {
+      font-size: 60px;
+      animation: float 2s infinite ease-in-out;
+    }
+
+    .heart {
+      color: #ff6b9a;
+      font-size: 45px;
+      animation: beat 1s infinite;
+    }
+
+    @keyframes beat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.25); }
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="moon">🌙</div>
+    <h1>Selamat Malam</h1>
+    <h2>Sri Rahayu Rahmatilah ❤️</h2>
+    <p>
+      Semoga malam ini kamu tidur dengan nyenyak,<br>
+      semua lelahmu hilang,<br>
+      dan besok kamu bangun dengan senyum yang manis.
+    </p>
+    <div class="heart">❤️</div>
+    <p>Aku sayang kamu, Sri.</p>
+  </div>
